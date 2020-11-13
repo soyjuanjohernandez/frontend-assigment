@@ -8,6 +8,9 @@ export const ArticleContainer = styled.div`
   width:75%;
   height: inherit;
   padding:28px;
+  @media (max-width: 768px) {
+    width:100%
+  }
 `
 export const ArticleTitle = styled.div`
   display: flex;

@@ -6,9 +6,16 @@ export const ItemContainer = styled.a`
   width:100%;
   padding: 0px 15px;
   border-bottom: 1px solid #edebeb;
+  transition: all .3s;
   cursor:pointer;
   & hr{
     border-top: 1px solid #edebeb
+ }
+ &:hover{
+   opacity:.7
+ }
+ &:active{
+   opacity:1
  }
 `
 export const ImageContainer = styled.div`

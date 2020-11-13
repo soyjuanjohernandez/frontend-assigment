@@ -4,6 +4,10 @@ export const ListContainer = styled.div`
   overflow: auto;
   width: 25%;
   margin-left:30px;
+  @media (max-width: 768px) {
+    display:none
+  }
+
   
 `
 export const List = styled.ul`
