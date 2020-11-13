@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
   ul, li, h1, h2, h3, p, button { margin: 0; padding: 0; }
   ul { list-style: none; }
   button { background: transparent; border: 0; outline: 0 }
+  ::placeholder { color: #707070 }
 
   body {
     background: #edebeb;

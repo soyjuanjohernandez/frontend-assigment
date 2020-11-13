@@ -1,14 +1,16 @@
 const images = {
+  bacterium: require('./bacterium.jpg'),
   bell: require('./bell.svg'),
   cog: require('./cog.svg'),
   comments: require('./comments.svg'),
+  down: require('./down.svg'),
   eye: require('./eye.svg'),
+  face: require('./face.png'),
   home: require('./home.svg'),
-  search: require('./search.svg'),
-  star: require('./star.svg'),
-  news: require('./news.svg'),
   logo: require('./logo.png'),
-  bacterium: require('./bacterium.jpg')
+  news: require('./news.svg'),
+  search: require('./search.svg'),
+  star: require('./star.svg')
 
 }
 
