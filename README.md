@@ -34,3 +34,26 @@ Puntos extras:
 - Unit testing.
 - Linting y Prettier
 - Docker
+
+## Instrucciones para correr el proyecto 🚀
+
+* clonar el repositorio
+
+## Desarrollo
+```
+$ npm run dev
+```
+## Producción
+```
+$ npm run build
+```
+
+## Despliegue en gh-pages
+```
+$ npm run predeploy
+$ npm run deploy
+
+```
+### Url del proyecto
+https://soyjuanjohernandez.github.io/frontend-assigment/
+
