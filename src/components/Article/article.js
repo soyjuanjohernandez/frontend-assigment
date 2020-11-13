@@ -3,9 +3,10 @@ import Button from '../Button/button'
 import TagLabel from '../TagLabel/tagLabel'
 import ArticleMainImage from '../ArticleMainImage/articleMainImage'
 import images from '../../../public/assets/images/images'
-import { ArticleContainer, ArticleTitle, ArticleInfo, Categories } from './styles'
+import { ArticleContainer, ArticleTitle, ArticleInfo, Categories, ArticleContent, ArticleActions } from './styles'
 import Category from '../Category/category'
-import { content } from '../../../public/assets/article.json'
+import { title, content } from '../../../public/assets/article.json'
+import parse from 'html-react-parser'
 
 export const Article = () => (
   <ArticleContainer>
@@ -15,7 +16,7 @@ export const Article = () => (
     </ArticleMainImage>
 
     <ArticleTitle>
-      <h2>Lorem ipsum dolor: Volutpat consequat </h2>
+      <h2>{title} </h2>
       <Button text='Guardar' />
     </ArticleTitle>
 
@@ -34,6 +35,26 @@ export const Article = () => (
       <Category text='Pediatría' />
       <Category text='Obstetricia' />
     </Categories>
+
+    <ArticleContent>
+      {parse(content)}
+    </ArticleContent>
+
+    <ArticleActions>
+      <button>
+        <img src={images.star} alt='' srcset='' />
+        <span>Destacar</span>
+      </button>
+      <button>
+        <img src={images.comments} alt='' srcset='' />
+        <span>Comentar</span>
+      </button>
+      <button>
+        <img src={images.share} alt='' srcset='' />
+        <span>Destacar</span>
+      </button>
+
+    </ArticleActions>
 
   </ArticleContainer>
 )

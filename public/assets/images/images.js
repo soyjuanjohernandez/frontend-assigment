@@ -10,6 +10,7 @@ const images = {
   logo: require('./logo.png'),
   news: require('./news.svg'),
   search: require('./search.svg'),
+  share: require('./share.svg'),
   star: require('./star.svg')
 
 }
