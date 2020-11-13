@@ -4,6 +4,7 @@ export const NavContainer = styled.nav`
     position:sticky;
     top:0;
     left:0;
+    z-index:1;
     height:77px;
     display:flex;
     align-items:center;
